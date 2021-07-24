@@ -9,3 +9,7 @@ $('#hamburger').click(function(){
   $(this).toggleClass("open");
   $('.navbar').toggleClass("close");
 });
+$(window).scroll(function(){
+  var fromTop = $(this).scrollTop()
+
+})
