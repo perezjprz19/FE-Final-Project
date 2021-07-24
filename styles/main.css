@@ -1,0 +1,300 @@
+:root{
+  --header-font:'Anton', sans-serif;
+  --main-font:'Open Sans', sans-serif;
+  --gray-accent:#cccccc;
+  font-size:1.5vw;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+/*##############################################################################
+                              HEADER
+##############################################################################*/
+header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  background-image:url("Hero-Image.jpg");
+  background-color:black;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+  margin-top:0;
+  z-index:0;
+}
+
+h1   {
+  font-family:var(--header-font);
+  color:white;
+  font-size:5rem;
+}
+
+.header-btn:hover  {
+  color:black;
+  border-color:var(--gray-accent);
+  background-color: rgba(255, 255, 255);
+  opacity:0.5;
+  text-transform:uppercase;
+}
+
+.header-btn  {
+  opacity:1;
+  background-color:white;
+  color:black;
+  text-transform:uppercase;
+}
+/*##############################################################################
+                        LANDING PAGE MODAL STYLE
+##############################################################################*/
+.stream-modal {
+  width:100%;
+
+}
+.btn-close  {
+  background-color:red;
+}
+
+.modal-close  {
+  text-transform:uppercase;
+}
+
+.modal-close:hover  {
+  background-color:var(--gray-accent);
+}
+
+.modal-content  {
+  background-color:white;
+  width:100%;
+}
+
+.modal-title{
+  color:black;
+  text-transform:uppercase;
+  font-family:var(--header-font);
+}
+
+.modal-body  {
+  display:flex;
+  justify-content:space-around;
+}
+.modal-body ul {
+  list-style-type: none;
+  font-size:1.5vw;
+  text-transform:uppercase;
+}
+.modal-body ul a   {
+  text-decoration: none;
+  color:black;
+  margin-left:0.5em;
+}
+.modal-body ul a:hover   {
+  color:red;
+}
+/*##############################################################################
+                        LANDING PAGE MODAL ICONS
+##############################################################################*/
+.social-icon  {
+  font-size: 1.5rem;
+  align-self: center;
+  width: 100%;
+  cursor: pointer;
+
+  font-style:normal;
+  font-variant:normal;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  display:inline-block;
+
+  padding:0.1em;
+}
+.youtube::before  {
+  content:"\f167";
+  color:red;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+}
+
+.spotify::before  {
+  content:"\f1bc";
+  color: #18d860;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+
+}
+
+.soundcloud::before  {
+  content:"\f1be";
+  background-image: linear-gradient(to top, #fc3b1c, #fd8624);
+  color: white;
+  font-family:"Font Awesome 5 Brands";
+  font-weight:400;
+
+
+}
+
+/*##############################################################################
+                          MOBILE MENU
+##############################################################################*/
+.main-navigation   {
+  display:flex;
+  flex-direction:row;
+  position:fixed;
+  justify-content:center;
+  align-items:center;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+}
+
+  /*HAMBURGER MENU*/
+
+.hamburger {
+      flex-direction:column;
+      text-align:center;
+      width: 2em;
+      height: 1.5em;
+      cursor:pointer;
+      font-size:1rem;
+      position:fixed;
+      top:0.5em;
+      right:2em;
+      z-index:9999;
+}
+
+.navbar{
+  width:100vw;
+  overflow:hidden;
+  font-family:var(--main-font);
+  font-size:3vw;
+  transition: all ease-in-out 500ms;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:var(--gray-accent);
+  clip-path: circle(145% at top right);
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.navlink{
+  text-decoration:none;
+  color:black;
+  text-transform:uppercase;
+  font-family: var(--main-font)
+}
+
+  /*HAMBURGER BUTTON STYLE*/
+.line {
+    height: 3px;
+    width: 100%;
+    background-color:var(--gray-accent);
+    display: block;
+    border-radius: 3px;
+    margin: 5px;
+    transition: 0.2s ease-in-out;
+    cursor:pointer;
+}
+
+.open .line {
+    background: red;
+  }
+
+  /*WHEN HAMBURGER MENU IS CLICKED, THE CLASS "OPEN" IS ADDED AND AN X IS FORMED*/
+.open #line1 {
+    transform: rotate(45deg) translateY(11px);
+  }
+
+.open #line2 {
+    opacity: 0%;
+  }
+
+.open #line3 {
+    transform: rotate(-45deg) translateY(-12px);
+  }
+
+.close {
+    clip-path: circle(0px at top right);
+  }
+
+  /*NAVLINK ICONS STYLE*/
+.navlink-icon {
+    display: inline-block;
+    margin-right: 1em;
+    width: 1em;
+    font-size: 2rem;
+    color:red;
+}
+
+.navlink:hover,
+.navlink:focus  {
+  outline:none;
+  color:red;
+  text-decoration:underline;
+  text-decoration-style: double;
+
+}
+
+/*##############################################################################
+                          END OF MOBILE MENU
+##############################################################################*/
+
+/*##############################################################################
+                MEDIA QUERY FOR SCREEN SIZE AT LEAST 1020PX
+##############################################################################*/
+@media screen and (min-width:1020px) {
+.navbar   {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:1vw;
+}
+
+
+.main-navigation   {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  top:0;
+  left:0;
+  align-items:center;
+  position:fixed;
+  width:100vw;
+}
+
+nav ul {
+  display:flex;
+  justify-content:space-around;
+  width:100vw;
+}
+
+.open {
+    display: block;
+    clip-path: circle(145% at top right);
+    transition: 0.2s ease-in-out;
+}
+
+.hamburger{
+  display:none;
+}
+.navlink-icon {
+    display:none;
+}
+/*##############################################################################
+                        END OF NAVIGATION
+##############################################################################*/
+h1{
+  font-size:4rem;
+}
+
+
+
+}
