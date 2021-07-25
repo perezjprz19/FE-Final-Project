@@ -356,9 +356,12 @@ header h1, header h2 {
 
 figcaption {
   font-family: var(--main-font);
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
+
 }
+
+
 
 /*##############################################################################
                                 ABOUT
@@ -376,10 +379,13 @@ figcaption {
 }
 
 .about h2,
-.about p {
+.artist-blurb {
   color: var(--gray-accent);
 }
 
+.artist-blurb  {
+  font-size:2rem;
+}
 
 .name {
   font-family: var(--header-font);
@@ -506,7 +512,7 @@ figcaption {
   .description-three {
     grid-column: 1/2;
     align-self: center;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .album-one-image,
@@ -519,18 +525,47 @@ figcaption {
   /*##############################################################################
                                 GALLERY - DESKTOP
 ##############################################################################*/
-  .gallery-container {
+.gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
     grid-gap: 0.5em;
     padding: 2em;
+    align-items: stretch;
+    margin-top:5em;
+    text-align: center;
   }
 
-  .concert-image-one {
-    grid-column: 1/2;
-  }
+.concert-image-one  {
+  grid-column:1/2;
+  grid-row:1/2;
+}
 
-  .concert-image-two {
-    grid-column: 2/3;
-  }
+.concert-image-two  {
+  grid-column:2/3;
+  grid-row:1/2;
+
+}
+
+.concert-image-three  {
+  grid-column:3/4;
+  grid-row:1/2;
+}
+
+.concert-image-four  {
+  grid-column:1/2;
+  grid-row:2/3;
+}
+
+.concert-image-five  {
+  grid-column:2/3;
+  grid-row:2/3;
+}
+
+.concert-image-six {
+  grid-column:3/4;
+  grid-row:2/3;
+
+}
+
 }
