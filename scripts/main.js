@@ -15,10 +15,10 @@ $('#hamburger').click(function(){
 $(document).ready(function(){
 
   $('.about-link').click(function(){
-    $('#contact').css("animation","bounce 4s");
+    $('.contact').css("animation","bounce 4s");
   });
 });
 
 $('.contact').click(function(){
-  $('#contactForm').toggleClass("form-hidden");
+  $('.contact-form').toggleClass("form-hidden");
 });

@@ -13,6 +13,11 @@ html, body {
   overflow-x: hidden;
 }
 
+a:link   {
+  text-decoration:none;
+}
+
+
 /*##############################################################################
                               HEADER
 ##############################################################################*/
@@ -205,6 +210,7 @@ header h1, header h2  {
   clip-path: circle(145% at top right);
 }
 
+
 .nav-item {
   list-style: none;
 }
@@ -213,7 +219,8 @@ header h1, header h2  {
   text-decoration:none;
   color:black;
   text-transform:uppercase;
-  font-family: var(--main-font)
+  font-family: var(--header-font);
+  font-size:3rem;
 }
 
   /*HAMBURGER BUTTON STYLE*/
@@ -263,7 +270,7 @@ header h1, header h2  {
   outline:none;
   color:red;
   text-decoration:underline;
-  text-decoration-style: double;
+  text-decoration-style: wavy;
 
 }
 
@@ -393,13 +400,13 @@ figcaption  {
 }
 
 
-.contact {
+.contact  {
   text-align: center;
   font-size: 3rem;
   font-family: var(--main-font);
   text-transform:uppercase;
   font-style: italic;
-  text-decoration:underline;
+    text-decoration:underline;
   text-decoration-style:wavy;
   text-decoration-color: red;
   background-image: linear-gradient(to right, var(--gray-accent), white);
@@ -413,9 +420,8 @@ figcaption  {
 
   color: transparent;
   /*text animation will be triggered with jquery on first click of "about" link*/
-
-  cursor: pointer
 }
+
 
 @keyframes bounce {
   0% {
@@ -429,6 +435,19 @@ figcaption  {
   }
 }
 
+
+.contact-form {
+  color:var(--gray-accent);
+  margin-top:2em;
+}
+
+.contact-btn  {
+  margin-top:1em;
+}
+
+.form-hidden  {
+  display:none;
+}
 /*##############################################################################
                 MEDIA QUERY FOR SCREEN SIZE AT LEAST 1020PX
 ##############################################################################*/
