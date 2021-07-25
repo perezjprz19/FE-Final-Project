@@ -41,6 +41,34 @@ contact form-->
 
 
 <body>
+
+  <div class="modal fade stream-modal" id="streamingModal" tabindex="-1" aria-labelledby="streamingModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="streamingModalLabel">Stream/Download</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" class="youtube social-icon">Youtube</a>
+            <li>
+              <a href="https://www.spotify.com/us/" target="_blank" class="spotify social-icon">Spotify</a>
+            </li>
+            <li>
+              <a href="https://soundcloud.com/" target="_blank" class="soundcloud social-icon">Soundcloud</a>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary modal-close" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!--Main Nav----Main Nav----Main Nav----Main Nav----Main Nav-->
   <div class=".container-fluid main-navigation">
     <div id="hamburger" class="hamburger lg-4 md-4 sm-12">
@@ -195,7 +223,7 @@ contact form-->
     <!--END OF GALLERY----END OF GALLERY----END OF GALLERY----END OF GALLERY----END OF GALLERY---->
     <div class="about">
 
-      <h2 class="name"  id="about">Andre</h2>
+      <h2 class="name" id="about">Andre</h2>
 
       <img src="images\thumbnail.jpg" alt="Andre" class="thumbnail">
 
@@ -209,7 +237,9 @@ contact form-->
         impedit!
       </p>
 
-      <a href="#contact-form"><h3 class="contact" data-bs-toggle="form" data-bs-target="#contactFormControlInput">Let's Talk</h3></a>
+      <a href="#contact-form">
+        <h3 class="contact" data-bs-toggle="form" data-bs-target="#contactFormControlInput">Let's Talk</h3>
+      </a>
 
       <!-- Contact Form -->
 
@@ -241,38 +271,15 @@ contact form-->
   </aside>
 
   <!--END OF SIDEBAR----END OF SIDEBAR NAV----END OF SIDEBAR NAV----END OF SIDEBAR NAV----END OF SIDEBAR NAV---->
+  <div class="footer">
+    <footer>
 
-  <footer>
-    <div class="modal fade stream-modal" id="streamingModal" tabindex="-1" aria-labelledby="streamingModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="streamingModalLabel">Stream/Download</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <ul>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank" class="youtube social-icon">Youtube</a>
-              <li>
-                <a href="https://www.spotify.com/us/" target="_blank" class="spotify social-icon">Spotify</a>
-              </li>
-              <li>
-                <a href="https://soundcloud.com/" target="_blank" class="soundcloud social-icon">Soundcloud</a>
-              </li>
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary modal-close" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+      <p class="disclaimer">This is a profile for a fictitious music artist</p>
 
+    </footer>
 
+  </div>
 
-
-  </footer>
 
   <!--My Javascript-->
   <script src="scripts\main.js"></script>
