@@ -38,10 +38,10 @@ contact form-->
 
   <title>Andre</title>
 </head>
-<!--HEADER MARK-UP BEGINS-->
+
 
 <body>
-
+<!--Main Nav----Main Nav----Main Nav----Main Nav----Main Nav-->
   <div class=".container-fluid main-navigation">
     <div id="hamburger" class="hamburger lg-4 md-4 sm-12">
       <div id="line1" class="line"></div>
@@ -64,13 +64,13 @@ contact form-->
         </li>
 
         <li class="nav-item">
-          <a href="#about" class="navlink"><span class=" fa fa-info-circle navlink-icon"></span>About</a>
+          <a href="#about" class="navlink about-link"><span class=" fa fa-info-circle navlink-icon"></span>About</a>
         </li>
       </ul>
     </nav>
   </div>
-
-  <header class="page-header header container-fluid"  id ="home">
+<!--HEADER MARK-UP BEGINS----HEADER MARK-UP BEGINS----HEADER MARK-UP BEGINS----HEADER MARK-UP BEGINS----HEADER MARK-UP BEGINS-->
+  <header class="page-header header container-fluid" id="home">
     <h1>Andre</h1>
     <button class="btn btn-outline-secondary btn-lg header-btn" data-bs-toggle="modal" data-bs-target="#streamingModal">Stream/Download</button>
     <h2>Limited Edition</h2>
@@ -114,7 +114,7 @@ contact form-->
     <!--TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR----TOUR-->
     <div class="tour-container" id="tour">
 
-      <h2>come hang out with me</h2>
+      <h2 class="hangout">come hang out with me</h2>
 
       <table class="table table-dark table-striped table-hover">
         <thead>
@@ -147,7 +147,7 @@ contact form-->
         </tbody>
       </table>
     </div>
-
+    <!--GALLERY----GALLERY------GALLERY----GALLERY------GALLERY----GALLERY------GALLERY----GALLERY-----GALLERY----GALLERY---->
     <div class="gallery-container" id="gallery">
       <figure>
         <img src="images\concert-image-one.jpg" alt="" class="concert-image-one">
@@ -183,11 +183,40 @@ contact form-->
           Ibiza Plaza 2018
         </figcaption>
       </figure>
+
+      <figure>
+        <img src="images\concert-image-two.jpg" alt="" class="concert-image-one">
+        <figcaption>
+          Madison Square Garden 2017
+        </figcaption>
+      </figure>
+
+    </div>
+    <!--END OF GALLERY----END OF GALLERY----END OF GALLERY----END OF GALLERY----END OF GALLERY---->
+    <div class="about" id="about">
+
+      <h2 class="name">Andre</h2>
+
+      <img src="images\thumbnail.jpg" alt="Andre" class="thumbnail">
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, eum eveniet, officiis omnis ullam dolore nam quis ducimus quos rerum. Molestiae totam voluptatum ipsam hic in consectetur enim dolores magni?
+        Alias quasi architecto, cupiditate, dolor dolorem necessitatibus voluptate, cumque, amet minima excepturi id? Est, temporibus, neque. Laboriosam recusandae commodi veritatis, quidem dolores voluptatibus accusantium aliquid architecto ipsum,
+        labore sed cum.
+        Dolorem cupiditate possimus id repudiandae expedita, nobis aperiam nisi. Veniam quas, illum dolores dolorum quae et. Ullam doloribus eaque quibusdam fuga, sunt facilis distinctio id ducimus suscipit provident reiciendis sapiente.
+        Aliquam sed reiciendis fugiat quia culpa, id beatae tempore pariatur porro soluta, eaque velit nihil obcaecati alias sapiente ipsa dolorum accusantium eveniet! Natus consequatur consectetur, tempora fugiat sequi rerum minima?
+        Explicabo enim expedita atque, ipsa quidem. Laudantium saepe veniam optio impedit exercitationem magnam placeat sequi, delectus dolorum explicabo, praesentium corporis laboriosam sunt aliquam voluptate expedita ea similique maiores! Nihil,
+        impedit!
+      </p>
+
+      <h3 class="contact" data-bs-toggle="form" data-bs-target="#contactFormControlInput">Let's Talk</h3>
+
     </div>
 
+    <!-- Contact Form -->
 
   </main>
-  <!--END OF MAIN PAGE ALBUMS----END OF MAIN PAGE ALBUMS----END OF MAIN PAGE ALBUMS----END OF MAIN PAGE ALBUMS----END OF MAIN PAGE ALBUMS---->
+
 
   <!--SIDEBAR----SIDEBAR NAV----SIDEBAR NAV----SIDEBAR NAV----SIDEBAR NAV---->
 
@@ -222,11 +251,15 @@ contact form-->
             </ul>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary modal-close" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary modal-close" data-bs-dismiss="contactModal">Close</button>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
   </footer>
 
   <!--My Javascript-->
