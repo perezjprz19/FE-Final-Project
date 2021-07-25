@@ -19,6 +19,7 @@ $(document).ready(function(){
   });
 });
 
+//TOGGLES SHOWS OR HIDES THE CONTACT FORM IN THE ABOUT SECTION.
 $('.contact').click(function(){
   $('.contact-form').toggleClass("form-hidden");
 });
