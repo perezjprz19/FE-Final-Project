@@ -2,7 +2,6 @@
   --header-font: 'Anton', sans-serif;
   --main-font: 'Open Sans', sans-serif;
   --gray-accent: #cccccc;
-  font-size: 1vw;
 }
 
 html, body {
@@ -10,6 +9,7 @@ html, body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  font-size: 1.5vw;
 }
 
 a:link {
@@ -319,8 +319,6 @@ header h1, header h2 {
   font-size: 5rem;
   margin-top: 1em;
   text-transform: uppercase;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 .table {
@@ -354,6 +352,7 @@ header h1, header h2 {
   padding: 2em;
   height: 100vh;
   width: 100vw;
+  align-items:center;
 }
 
 figcaption {
@@ -361,7 +360,6 @@ figcaption {
   font-size: 2rem;
   text-align: center;
 }
-
 
 
 /*##############################################################################
@@ -413,11 +411,11 @@ figcaption {
   text-decoration-style: wavy;
   text-decoration-color: red;
   background-image: linear-gradient(to right, var(--gray-accent), white);
-  background-clip: text;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -o-background-clip: text;
+  background-clip: text;
   color: transparent;
   /*text animation will be triggered with jquery on first click of "about" link*/
 }
@@ -473,6 +471,10 @@ figcaption {
                 MEDIA QUERY FOR SCREEN SIZE AT LEAST 1020PX
 ##############################################################################*/
 @media screen and (min-width:1020px) {
+
+  body, html {
+    font-size: 1vw;
+  }
   .navbar {
     display: flex;
     flex-direction: row;
