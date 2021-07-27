@@ -26,7 +26,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("Hero-Image.jpg");
+  background-image: url("Hero-Image-Sm.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,10 +37,16 @@ header {
   text-transform: uppercase;
 }
 
-header h1, header h2 {
+header h1  {
   font-family: var(--header-font);
   color: white;
   font-size: 5rem;
+}
+
+header h3 {
+  font-family: var(--header-font);
+  color: white;
+  font-size: 3.5rem;
 }
 
 .header-btn:hover {
@@ -56,6 +62,8 @@ header h1, header h2 {
   background-color: white;
   color: black;
   text-transform: uppercase;
+  margin:2em;
+  font-size:1.6rem;
 }
 
 /*##############################################################################
@@ -63,14 +71,17 @@ header h1, header h2 {
 ##############################################################################*/
 .stream-modal {
   width: 100%;
+  margin-right:0.5em;
 }
 
 .btn-close {
   background-color: red;
+  font-size:1.5rem;
 }
 
 .modal-close {
   text-transform: uppercase;
+  font-size:1.5rem;
 }
 
 .modal-close:hover {
@@ -86,6 +97,8 @@ header h1, header h2 {
   color: black;
   text-transform: uppercase;
   font-family: var(--header-font);
+  font-size:2rem;
+  letter-spacing:0.1em;
 }
 
 .modal-body {
@@ -96,7 +109,7 @@ header h1, header h2 {
 
 .modal-body ul {
   list-style-type: none;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -106,6 +119,7 @@ header h1, header h2 {
   margin-left: 0.5em;
   font-size: 1rem;
   font-weight: bold;
+  font-size:2rem;
 }
 
 .modal-body ul a:hover {
@@ -133,6 +147,8 @@ header h1, header h2 {
   color: red;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
+  margin-right:1em;
+  font-size:2.5rem;
 }
 
 .spotify::before {
@@ -140,6 +156,8 @@ header h1, header h2 {
   color: #18d860;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
+  margin-right:1em;
+  font-size:2.5rem;
 }
 
 .soundcloud::before {
@@ -148,6 +166,8 @@ header h1, header h2 {
   color: white;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
+  margin-right:.7em;
+  font-size:2.5rem;
 }
 
 .social-circle {
@@ -181,6 +201,7 @@ header h1, header h2 {
   left: 0;
   width: 100vw;
   z-index: 1;
+
 }
 
 /*HAMBURGER MENU*/
@@ -192,8 +213,8 @@ header h1, header h2 {
   cursor: pointer;
   font-size: 1rem;
   position: fixed;
-  top: 0.5em;
-  right: 2em;
+  top: 1em;
+  right: 4em;
   z-index: 9999;
 }
 
@@ -322,9 +343,11 @@ header h1, header h2 {
 }
 
 .table {
-  width: 50%;
+  width: 90%;
   margin: auto;
   align-items: center;
+  font-size:2rem;
+
 }
 
 .table-header {
@@ -337,10 +360,12 @@ header h1, header h2 {
   background-color: white;
   color: black;
   text-transform: uppercase;
+  font-size:1.2rem;
 }
 
 .buy-tickets:hover {
   opacity: 0.5;
+  font-weight:bold;
 }
 
 /*##############################################################################
@@ -475,6 +500,15 @@ figcaption {
   body, html {
     font-size: 1vw;
   }
+/*##############################################################################
+                                HEADER - DESKTOP
+##############################################################################*/
+  header {
+    background-image: url("Hero-Image.jpg");
+  }
+/*##############################################################################
+                                  NAVIGATION -DESKTOP
+##############################################################################*/
   .navbar {
     display: flex;
     flex-direction: row;
@@ -514,13 +548,27 @@ figcaption {
     display: none;
   }
 
-  /*##############################################################################
-                      MAIN PAGE ALBUM - DESKTOP
+/*##############################################################################
+                        MODAL ICONS-DESKTOP
 ##############################################################################*/
-  h1 {
-    font-size: 4rem;
+
+.youtube::before {
+    font-size:1.5rem;
   }
 
+.spotify::before {
+    font-size:1.5rem;
+}
+
+.soundcloud::before {
+    font-size:1.5rem;
+}
+
+
+
+/*##############################################################################
+                      MAIN PAGE ALBUM - DESKTOP
+##############################################################################*/
   .album-one-container,
   .album-two-container,
   .album-three-container {
@@ -546,8 +594,8 @@ figcaption {
     width: 75%;
   }
 
-  /*##############################################################################
-                                GALLERY - DESKTOP
+/*##############################################################################
+                              GALLERY - DESKTOP
 ##############################################################################*/
   .gallery-container {
     display: grid;
@@ -555,9 +603,13 @@ figcaption {
     grid-template-rows: auto;
     grid-gap: 0.5em;
     padding: 2em;
-    align-items: stretch;
     margin-top: 5em;
     text-align: center;
+
+  }
+
+  .concert{
+  width:100%;
   }
 
   .concert-image-one {
