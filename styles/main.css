@@ -16,8 +16,6 @@ a:link {
   text-decoration: none;
 }
 
-
-
 /*##############################################################################
                               HEADER
 ##############################################################################*/
@@ -37,7 +35,7 @@ header {
   text-transform: uppercase;
 }
 
-header h1  {
+header h1 {
   font-family: var(--header-font);
   color: white;
   font-size: 5rem;
@@ -62,8 +60,8 @@ header h3 {
   background-color: white;
   color: black;
   text-transform: uppercase;
-  margin:2em;
-  font-size:1.6rem;
+  margin: 2em;
+  font-size: 1.6rem;
 }
 
 /*##############################################################################
@@ -71,17 +69,17 @@ header h3 {
 ##############################################################################*/
 .stream-modal {
   width: 100%;
-  margin-right:0.5em;
+  margin-right: 0.5em;
 }
 
 .btn-close {
   background-color: red;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .modal-close {
   text-transform: uppercase;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .modal-close:hover {
@@ -97,8 +95,8 @@ header h3 {
   color: black;
   text-transform: uppercase;
   font-family: var(--header-font);
-  font-size:2rem;
-  letter-spacing:0.1em;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
 }
 
 .modal-body {
@@ -117,9 +115,8 @@ header h3 {
   text-decoration: none;
   color: black;
   margin-left: 0.5em;
-  font-size: 1rem;
   font-weight: bold;
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 .modal-body ul a:hover {
@@ -147,8 +144,8 @@ header h3 {
   color: red;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
-  margin-right:1em;
-  font-size:2.5rem;
+  margin-right: 1em;
+  font-size: 2.5rem;
 }
 
 .spotify::before {
@@ -156,8 +153,8 @@ header h3 {
   color: #18d860;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
-  margin-right:1em;
-  font-size:2.5rem;
+  margin-right: 1em;
+  font-size: 2.5rem;
 }
 
 .soundcloud::before {
@@ -166,8 +163,8 @@ header h3 {
   color: white;
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
-  margin-right:.7em;
-  font-size:2.5rem;
+  margin-right: .7em;
+  font-size: 2.5rem;
 }
 
 .social-circle {
@@ -201,7 +198,6 @@ header h3 {
   left: 0;
   width: 100vw;
   z-index: 1;
-
 }
 
 /*HAMBURGER MENU*/
@@ -346,8 +342,7 @@ header h3 {
   width: 90%;
   margin: auto;
   align-items: center;
-  font-size:2rem;
-
+  font-size: 2rem;
 }
 
 .table-header {
@@ -360,12 +355,12 @@ header h3 {
   background-color: white;
   color: black;
   text-transform: uppercase;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
 
 .buy-tickets:hover {
   opacity: 0.5;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 /*##############################################################################
@@ -377,7 +372,7 @@ header h3 {
   padding: 2em;
   height: 100vh;
   width: 100vw;
-  align-items:center;
+  align-items: center;
 }
 
 figcaption {
@@ -386,11 +381,9 @@ figcaption {
   text-align: center;
 }
 
-
 /*##############################################################################
                                 ABOUT
 ##############################################################################*/
-
 .about {
   width: 100vw;
   height: auto;
@@ -475,38 +468,36 @@ figcaption {
 /*##############################################################################
                                     FOOTER
 ##############################################################################*/
-
-.footer  {
-  display:flex;
+.footer {
+  display: flex;
   justify-content: center;
   position: fixed;
-  width:100%;
-  bottom:auto;
-  margin-top:0;
-
+  width: 100%;
+  bottom: auto;
+  margin-top: 0;
 }
 
-.disclaimer  {
-  color:var(--gray-accent);
+.disclaimer {
+  color: var(--gray-accent);
   align-self: center;
 }
-
 
 /*##############################################################################
                 MEDIA QUERY FOR SCREEN SIZE AT LEAST 1020PX
 ##############################################################################*/
 @media screen and (min-width:1020px) {
-
   body, html {
     font-size: 1vw;
   }
-/*##############################################################################
+
+  /*##############################################################################
                                 HEADER - DESKTOP
 ##############################################################################*/
   header {
     background-image: url("Hero-Image.jpg");
   }
-/*##############################################################################
+
+  /*##############################################################################
                                   NAVIGATION -DESKTOP
 ##############################################################################*/
   .navbar {
@@ -548,25 +539,47 @@ figcaption {
     display: none;
   }
 
-/*##############################################################################
+  /*##############################################################################
                         MODAL ICONS-DESKTOP
 ##############################################################################*/
-
-.youtube::before {
-    font-size:1.5rem;
+  .modal-title {
+    letter-spacing: 0;
+    font-size: 1rem;
   }
 
-.spotify::before {
-    font-size:1.5rem;
-}
+  .modal-body ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 2em;
+  }
 
-.soundcloud::before {
-    font-size:1.5rem;
-}
+  .modal-body ul a {
+    font-size: 1rem;
+  }
 
+  .modal-close {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
 
+  .modal-content {
+    min-width: 200%;
+  }
 
-/*##############################################################################
+  .youtube::before {
+    font-size: 1.5rem;
+  }
+
+  .spotify::before {
+    font-size: 1.5rem;
+  }
+
+  .soundcloud::before {
+    font-size: 1.5rem;
+  }
+
+  /*##############################################################################
                       MAIN PAGE ALBUM - DESKTOP
 ##############################################################################*/
   .album-one-container,
@@ -605,11 +618,10 @@ figcaption {
     padding: 2em;
     margin-top: 5em;
     text-align: center;
-
   }
 
-  .concert{
-  width:100%;
+  .concert {
+    width: 100%;
   }
 
   .concert-image-one {
@@ -641,4 +653,8 @@ figcaption {
     grid-column: 3/4;
     grid-row: 2/3;
   }
+
+/*##############################################################################
+                                FOOTER - DESKTOP
+##############################################################################*/
 }
