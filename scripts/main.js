@@ -15,6 +15,7 @@ $(document).ready(function() {
 
   $('.about-link').click(function() {
     $('.contact').css("animation", "bounce 4s");
+
   });
 });
 
