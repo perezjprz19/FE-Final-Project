@@ -1,9 +1,7 @@
 # Final-Project
-Music artist webpage created for Front End Foundations final at EGCC. Andre is an up-and-coming rock artist looking to get his music heard and connect with potential record labels I used CSS, HTML5, and Jquery to create a responsive layout for desktop and mobile screens.
-
 
 Technologies:
-HTML
+HTML</br>
 CSS
 JQuery
 Bootstrap
