@@ -35,9 +35,14 @@ The desktop site starts with a fixed navigation above the header, which makes it
    
    <h2>Images</h2>
    
+   <h3>Desktop</h3>
    ![final-project-deskop](https://user-images.githubusercontent.com/29064943/127249969-82895844-1d25-464d-b8dc-e6b8fbadd770.jpeg)
    ![final-project-desktop-open-modals-form](https://user-images.githubusercontent.com/29064943/127250013-44154b73-2706-4cfb-93ee-d86bc8c296b1.jpeg)
+   
+   <h3>Tablet</h3>
   ![final-project-ipad](https://user-images.githubusercontent.com/29064943/127250018-c3d8bc91-c61c-4cfa-a244-61514791dac5.jpeg)
+  
+  <h3>Mobile</h3>
   ![mobile-open-menu-form](https://user-images.githubusercontent.com/29064943/127250061-7ddf4b4f-9b35-4ecf-bd3c-6f89ca8e3dc0.jpeg)
   ![mobile-open-modal](https://user-images.githubusercontent.com/29064943/127250073-6453cd15-9f09-4e7a-b439-a97f006f9e92.jpeg)
   ![final-project-mobile](https://user-images.githubusercontent.com/29064943/127250032-841cc89a-4a31-480d-aef6-63fe9404d9db.jpeg)
