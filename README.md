@@ -1,14 +1,16 @@
 # Final-Project
 
-Technologies:
-HTML</br>
-CSS
-JQuery
-Bootstrap
-Github Repositories
-Figma
+<h2>Technologies:</h2>
+  <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JQuery</li>
+  <li>Bootstrap</li>
+  <li>Github Repositories</li>
+  <li>Figma</li>
 
 
+ <h2>Design Concept</h2>
 I completed a single page website for Andre, a fictitious musician. I used a combination of flexbox and grid to build a responsive single page website. 
 The desktop site starts with a fixed navigation above the header, which makes it easy for desktop users to access any content within the page at any time. This navigation collapses into a hamburger menu for mobile screens using Jquery. There is an immediate call to action in the header that allows users to open several streaming sites on a separate tab; ideally, this would be directly linked to the Andre’s profile on those sites.
 Andre’s need to remain connected to social media and within reach of possible talent scouts inspired the fixed sidebar navigation design, which includes many of the music platforms a musician might use to promote their music and remains within view on the right side of the screen for both, desktop, and mobile screens.
