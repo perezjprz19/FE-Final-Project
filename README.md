@@ -1,13 +1,14 @@
 # Final-Project
 
 <h2>Technologies:</h2>
-  <ul>
+<ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JQuery</li>
   <li>Bootstrap</li>
   <li>Github Repositories</li>
-  <li>Figma</li>
+  <li>Figma</li> 
+</ul>
 
 
  <h2>Design Concept</h2>
@@ -21,3 +22,23 @@ The desktop site starts with a fixed navigation above the header, which makes it
 <p>I used flexbox to display a bootstrap table for the tour schedule. I also used Bootstrap for the “Buy Tickets” buttons. The “Come Hangout with Me” prompt above the tour schedule makes Andre come across as a friendly and open personality. I used grid to display some images of the concerts Andre has played in. The layout changes to flexbox for mobile sites. All images are fully accessible in the mobile version, even if not always fully visible.</p>
 
 <p>Finally, the “About” section includes another picture of Andre, a short blurb, and another call to action, “Let’s Talk.” The call to action is animated when the page first loads, but only on the very first click of the “About” link in the main navigation as to not overwhelm the user. When the CTA is clicked, a contact form drops down.</p>
+
+  <h2>Challenges</h2>
+  The biggest issue I faced was with positioning elements, resizing images, and toggling the active states of the navigation bar for mobile and desktop.
+  
+  <h2>Upcoming Improvements</p>
+  <ul>
+    <li>Refactor the code for the hamburger menu</li>
+    <li>Link a database to the tour table</li>
+    <li>Add an easily accessible "back to top" button for the mobile view</li>
+   </ul>
+   
+   <h2>Images</h2>
+   ![final-project-deskop](https://user-images.githubusercontent.com/29064943/127249969-82895844-1d25-464d-b8dc-e6b8fbadd770.jpeg)
+   ![final-project-desktop-open-modals-form](https://user-images.githubusercontent.com/29064943/127250013-44154b73-2706-4cfb-93ee-d86bc8c296b1.jpeg)
+  ![final-project-ipad](https://user-images.githubusercontent.com/29064943/127250018-c3d8bc91-c61c-4cfa-a244-61514791dac5.jpeg)
+  ![mobile-open-menu-form](https://user-images.githubusercontent.com/29064943/127250061-7ddf4b4f-9b35-4ecf-bd3c-6f89ca8e3dc0.jpeg)
+  ![mobile-open-modal](https://user-images.githubusercontent.com/29064943/127250073-6453cd15-9f09-4e7a-b439-a97f006f9e92.jpeg)
+  ![final-project-mobile](https://user-images.githubusercontent.com/29064943/127250032-841cc89a-4a31-480d-aef6-63fe9404d9db.jpeg)
+
+  
