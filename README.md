@@ -26,7 +26,7 @@ The desktop site starts with a fixed navigation above the header, which makes it
   <h2>Challenges</h2>
   The biggest issue I faced was with positioning elements, resizing images, and toggling the active states of the navigation bar for mobile and desktop.
   
-  <h2>Upcoming Improvements</p>
+  <h2>Upcoming Improvements</h2>
   <ul>
     <li>Refactor the code for the hamburger menu</li>
     <li>Link a database to the tour table</li>
@@ -34,6 +34,7 @@ The desktop site starts with a fixed navigation above the header, which makes it
    </ul>
    
    <h2>Images</h2>
+   
    ![final-project-deskop](https://user-images.githubusercontent.com/29064943/127249969-82895844-1d25-464d-b8dc-e6b8fbadd770.jpeg)
    ![final-project-desktop-open-modals-form](https://user-images.githubusercontent.com/29064943/127250013-44154b73-2706-4cfb-93ee-d86bc8c296b1.jpeg)
   ![final-project-ipad](https://user-images.githubusercontent.com/29064943/127250018-c3d8bc91-c61c-4cfa-a244-61514791dac5.jpeg)
